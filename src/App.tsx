@@ -1,8 +1,11 @@
+import Header from "./components/header";
+import RandomCocteil from "./components/randomCocteil";
 
 function App() {
   return (
-    <body>
-        <div className='text-3xl'>Hello</div>
+    <body className='flex w-full justify-center items-center flex-col'>
+      <Header/>
+      <RandomCocteil/>
     </body>
   );
 }
